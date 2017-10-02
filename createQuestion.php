@@ -23,6 +23,6 @@
 
     $res = $conn->query($sql);
 
-    $conn->close();
+    echo $conn->error();
 
 ?>
