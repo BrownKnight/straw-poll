@@ -39,9 +39,9 @@
     <div class="container">
         <div class="Question">
         <h1>Add a question</h1>
-        <form action="addQuestion()">
+        <form>
             <input type="text" name="question" value="">
-            <input type="submit" name="Add Question" value="">
+            <input type="button" name="Add Question" value="Add Question" onclick="addQuestion()">
         </form>
         </div>
     </div>
