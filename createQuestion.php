@@ -23,7 +23,9 @@
 
     $res = mysqli_query($conn, $sql);
 
-    echo $res;
+    if ($res === FALSE) {
+        echo mysqli_error($conn);
+    }
 
     mysqli_close($conn);
 
