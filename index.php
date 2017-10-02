@@ -40,7 +40,7 @@
         <div class="Question">
         <h1>Add a question</h1>
         <form>
-            <input type="text" name="question" value="">
+            <input id="question" type="text" name="question" value="">
             <input type="button" name="Add Question" value="Add Question" onclick="addQuestion()">
         </form>
         </div>
