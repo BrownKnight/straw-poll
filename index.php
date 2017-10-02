@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+
+<html>
 <?php
     
     session_start();
@@ -21,9 +24,6 @@
 
 ?>
 
-<!DOCTYPE html>
-
-<html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -31,13 +31,18 @@
 	<title> Straw Poll </title>
 
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/script.js"></script>
     
 </head>
 <body>
     <div class="container">
         <div class="Question">
-        <h1>Question</h1>
+        <h1>Add a question</h1>
+        <form action="addQuestion()">
+            <input type="text" name="question" value="">
+            <input type="submit" name="Add Question" value="">
+        </form>
         <?php
 
         ?>
