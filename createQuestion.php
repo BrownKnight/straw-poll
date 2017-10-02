@@ -21,8 +21,10 @@
 
     $sql = 'INSERT INTO questions (question_id, question) VALUES (1, "'.$question.'")';
 
-    $res = $conn::query($conn, $sql);
+    $res = $conn_query($conn, $sql);
 
     echo $res;
+
+    $conn_close();
 
 ?>
