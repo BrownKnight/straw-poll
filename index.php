@@ -43,9 +43,6 @@
             <input type="text" name="question" value="">
             <input type="submit" name="Add Question" value="">
         </form>
-        <?php
-
-        ?>
         </div>
     </div>
 
