@@ -21,10 +21,10 @@
 
     $sql = 'INSERT INTO questions (question_id, question) VALUES (1, "'.$question.'")';
 
-    $res = $conn_query($conn, $sql);
+    $res = mysqli_query($conn, $sql);
 
     echo $res;
 
-    $conn_close();
+    mysqli_close($conn);
 
 ?>
