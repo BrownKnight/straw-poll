@@ -8,35 +8,18 @@
 
 <html>
 <head>
-	<title> Example </title>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title> Straw Poll </title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    
 </head>
 <body>
  
-  <?php
-    
-        $u_name = $_POST["r_username"];
-        $u_password = $_POST["r_userpassword"];
 
-        if($u_name == $_SESSION["s_username"] && $u_password == $_SESSION["s_password"]){
-
-            echo "Log in was successful!";
-
-        } else {
-            
-    ?>
-        
-        <script>
-            
-            alert("Wrong username or password , redirecting to log in page");
-            window.location.href = "logIn.php";
-    
-        </script>
-    
-    <?php
-            
-        }
-
-    ?>
 
 </body>
 </html>
