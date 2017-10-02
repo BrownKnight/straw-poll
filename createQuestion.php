@@ -19,7 +19,7 @@
     $question = $_REQUEST['questionText'];
     echo $question;
 
-    $sql = 'INSERT INTO questions (question_id, question) VALUES (1, "'.$question.'")';
+    $sql = 'INSERT INTO questions (question_id, question) VALUES (5, "'.$question.'")';
 
     $res = mysqli_query($conn, $sql);
 
