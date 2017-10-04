@@ -34,4 +34,4 @@ $sql = "SELECT * FROM questions";
 // Query db with statement
 $res = mysqli_query($conn, $sql);
 
-echo json_encode(mysqli_fetch_all($res));
+echo json_encode(mysqli_fetch_all($res, MYSQLI_ASSOC));
