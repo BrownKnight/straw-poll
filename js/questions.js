@@ -6,7 +6,7 @@ $(document).ready(function() {
 });
 
 function getQuestionList() {
-    $.get("/scripts/getQuestions.php", null , function(json) {
+    $.get("/scripts/getQuestions.php", {} , function(json) {
         console.log(json);
         questionList = json;
         showQuestion();
