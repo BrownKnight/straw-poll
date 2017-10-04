@@ -38,7 +38,7 @@
 <body>
     <div class="container">
         <nav>
-            <a></a>
+            <a href="questions.html">Questions</a>
         </nav>
     </div>
     <div class="container">
