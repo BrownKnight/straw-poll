@@ -4,8 +4,3 @@ function addQuestion() {
     })
 }
 
-function getQuestionList() {
-    $.get("/scripts/getQuestions.php", null , function(json) {
-        console.log(json);
-    }, 'json');
-}
