@@ -38,11 +38,12 @@
 <body>
     <div class="container">
         <div class="Question">
-        <h1>Add a question</h1>
-        <form>
-            <input id="question" type="text" name="question" value="">
-            <input type="button" name="Add Question" value="Add Question" onclick="addQuestion()">
-        </form>
+            <h1>Add a question</h1>
+            <form>
+                <input id="question" type="text" name="question" value="">
+                <input type="button" name="Add Question" value="Add Question" onclick="addQuestion()">
+            </form>
+            <input type="button" onclick="getQuestionList()">
         </div>
     </div>
 
