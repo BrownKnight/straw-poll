@@ -1,0 +1,22 @@
+$colors: (
+  "primary": "aqua",
+  "secondary": "purple"
+);
+$breakpoints: (
+"small": 768px
+);
+
+
+.container {
+  background-color: map-get($colors, "primary");
+  width: 100%;
+  height: auto;
+  margin: 0px;
+}
+
+nav {
+  width: 70%;
+  @media (max-width: map-get($breakpoints, "small")) {
+    width: 100%;
+  }
+}

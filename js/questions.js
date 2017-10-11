@@ -14,7 +14,7 @@ function getQuestionList() {
 }
 
 function showQuestion() {
-    if (questionNum > questionList.length) questionNum = 0;
+    if (questionNum > questionList.length-1) questionNum = 0;
     $("#questionText").html(questionList[questionNum].question);
 }
 
