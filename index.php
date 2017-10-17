@@ -60,8 +60,9 @@
 <button type="button" class="btn btn-danger">Show alert</button>
 <button>nkjdbo</button>
 
-<div class="alert alert-danger alert-dismissible fade show" role="alert"> This is an alert!
-    <button role="button" type="button" aria-label="Close" data-dismiss="alert"></button>
+<div class="alert alert-danger alert-dismissible fade show" role="alert">
+    This is an alert!
+    <button role="button" class="close" type="button" aria-label="Close" data-dismiss="alert"><span>&times;</span></button>
 </div>
 
 </body>
